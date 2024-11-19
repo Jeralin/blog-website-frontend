@@ -23,6 +23,7 @@
   margin: auto;
   /* modified */
   margin-top: 8%;
+  min-height: 50vh;
 }
 
 .login-form h1 {
