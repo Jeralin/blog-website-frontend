@@ -7,7 +7,7 @@ function AdminLogin() {
     <>
       {/* <!-- Main Content --> */}
       <div class="container-fluid  ">
-        <div class="row main-content bg-success text-center  ">
+        <div class="row main-content  text-center  ">
           <div class="col-md-4 text-center company__info">
             <img src={blog_logo1} className="logo" />
           </div>
@@ -86,7 +86,7 @@ function AdminLogin() {
 								<label for="remember_me" className='AdminLogin_check mx-5'>Remember Me!</label>
 							</div>
 							<div class="row">
-								<input type="submit" value="Submit" class="btn"/>
+								<input type="submit" value="Submit" className="btn-admin"/>
 							</div>
 							
 						</form>
