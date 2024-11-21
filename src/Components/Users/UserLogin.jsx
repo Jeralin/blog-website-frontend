@@ -12,7 +12,9 @@ const UserLogin = () => {
   const [password, setPassword] = useState("");
 
   return (
-    <div className="login">
+    
+
+    <div className="login"><div className="body-userLogin">
       {/* <img src={logo} className="login-logo" alt="" /> */}
       <div className="login-form">
         <h1>{signState}</h1>
@@ -83,6 +85,7 @@ const UserLogin = () => {
               </span>
             </p>
           )}
+        </div>
         </div>
       </div>
     </div>
