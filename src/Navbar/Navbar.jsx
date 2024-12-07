@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 // import React from "react";
 import "./Navbar.css";
 import menu_icon from "../Assets/menu.png";
-import logo from "../Assets/logo.jpg";
+// import logo from "../Assets/logo.jpg";
 import search_icon from "../Assets/search.png";
 
 import notification_icon from "../Assets/notification.png";

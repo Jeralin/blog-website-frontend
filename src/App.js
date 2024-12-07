@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/admin_login" element={<AdminLogin />} />
         <Route path="/user_login" element={<UserLogin />} />
-        <Route path="/admin_dashboard" element={<AdminDashboard />} />
+        <Route path="/admin_dashboard" element={[<Navbar />,<AdminDashboard />]} />
         <Route path="/nav" element={<Navbar />} />
         <Route path="/feature" element={[<Navbar />, <Feature />]} />
         <Route path="/viewblog" element={[<Navbar />, <ViewBlog />]} />
