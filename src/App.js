@@ -7,6 +7,7 @@ import UserLogin from "./Components/Users/UserLogin";
 import AdminDashboard from "./Components/Admin/AdminDashboard";
 import Navbar from "./Navbar/Navbar";
 import Feature from "./Components/Feature/Feature";
+import ViewBlog from "./Components/ViewBlog/ViewBlog";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path="/user_login" element={<UserLogin />} />
         <Route path="/admin_dashboard" element={[<Navbar />,<AdminDashboard />]} />
         <Route path="/nav" element={<Navbar />} />
-        <Route path="/feature" element={[<Navbar />,<Feature />]} />
+        <Route path="/feature" element={[<Navbar />, <Feature />]} />
+        <Route path="/viewblog" element={[<Navbar />, <ViewBlog />]} />
       </Routes>
     </BrowserRouter>
   );
