@@ -6,6 +6,7 @@ import menu_icon from "../Assets/menu.png";
 import search_icon from "../Assets/search.png";
 
 import notification_icon from "../Assets/notification.png";
+
 import profile_icon from "../Assets/profile-pic (1).png";
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY >= 80) {
+      if (window.scrollY >= 10) {
         navRef.current.classList.add("dark");
       } else {
         navRef.current.classList.remove("dark");

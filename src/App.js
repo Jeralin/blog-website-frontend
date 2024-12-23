@@ -8,6 +8,9 @@ import AdminDashboard from "./Components/Admin/AdminDashboard";
 import Navbar from "./Navbar/Navbar";
 import Feature from "./Components/Feature/Feature";
 import ViewBlog from "./Components/ViewBlog/ViewBlog";
+// import AdminProfile from "./Components/Admin/AdminProfile";
+import AdminNavbar from "./Components/Admin/AdminNavbar";
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
         <Route path="/nav" element={<Navbar />} />
         <Route path="/feature" element={[<Navbar />, <Feature />]} />
         <Route path="/viewblog" element={[<Navbar />, <ViewBlog />]} />
+        <Route path="/adminnavbar" element={<AdminNavbar/>} />
+
       </Routes>
     </BrowserRouter>
   );
